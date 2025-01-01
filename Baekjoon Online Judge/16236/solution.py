@@ -8,7 +8,7 @@ area = [ list(map(int, input().split())) for _ in range(N) ]
 
 dxs = [-1, 0, 1, 0]
 dys = [0, 1, 0, -1]
-ㅎ
+
 # 상어의 시작 좌표 얻고 해당위치 빈칸으로 설정
 for x in range(N):
     for y in range(N):
