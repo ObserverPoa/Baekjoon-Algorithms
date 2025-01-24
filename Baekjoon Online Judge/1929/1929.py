@@ -1,6 +1,8 @@
 import sys
 
-M, N = map(int, sys.stdin.readline().split())
+input = sys.stdin.readline
+
+M, N = map(int, input().split())
 
 is_prime = [True] * (N + 1)
 
